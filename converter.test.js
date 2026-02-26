@@ -52,3 +52,8 @@ test("boiling point: 100°C should equal 212°F", () => {
 test("1 Liter should equal 999.26 gallons rounded", () => {
   expect(litersToGallons(1)).toBe(0.26);
 });
+
+test("freezing point: 0°C should equal 32°F", () => {
+  expect(celsiusToFahrenheit(0)).toBe(32);
+  //Runs the formula for conversion with this specific data
+});
