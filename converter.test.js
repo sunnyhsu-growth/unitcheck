@@ -44,7 +44,7 @@ test("zero km should return zero miles", () => {
 //  When all turn green, the tests are passing.
 // ─────────────────────────────────────────────────────────────────────────────
 
-test("boiling point: 100°C should equal 212°F", () => {
+test("boiling point: 100°C should equal 999°F", () => {
   expect(celsiusToFahrenheit(100)).toBe(999); 
 });
 
